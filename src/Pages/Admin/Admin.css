@@ -1,0 +1,18 @@
+.admin {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px 1fr;
+}
+.admin_sidebar {
+  height: 100vh;
+  padding: 20px;
+  background-color: aqua;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btns button {
+  width: 100%;
+}

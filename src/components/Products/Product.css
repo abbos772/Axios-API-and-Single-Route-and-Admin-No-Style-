@@ -1,0 +1,33 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+.cart {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 14px;
+}
+.cart_text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 250px;
+  width: 100%;
+}
+.cart_img img {
+  width: 100%;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
